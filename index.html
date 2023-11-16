@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Param Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+    
+    <!-- icon link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <!-- <img src="images/logo.png" alt="our main logo" class="logo"/> -->
+        <h2>Parmeshwar <span class="dur">durgist</span></h2>
+        
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="" class="navbar-link home-link">Home</a></li>
+                <li><a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/12.Prof_Web_project/public/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/12.Prof_Web_project/public/services.html" class="navbar-link Services-link">Services</a></li>
+                <li><a href="#Portfolio-section" class="navbar-link Portfolio-link">Portfolio</a></li>
+                <li><a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/12.Prof_Web_project/public/contect.html" class="navbar-link Contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+
+    <!--hero section-->
+    <main>  
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">Parmeshwar durgist</h1>
+                    <p class="hero-para">
+                        I' am , Parmeshwar Laxman Durgist . I am software and web Developer . i am created by many websites using Front and and Back End Technology .
+                    </p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire Me</a>
+                    </div>
+                </div>
+                <!--hero section right side-->
+                <div class="section-hero-image">
+                    <img src="images/herofirst.jpg" alt="this is me param durgist" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =======================
+        Bio data section start 
+    ====================== -->
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="images/biodata.jpg" alt="my bio data images"/>
+            </div>                
+                <!-- bio right side data  -->
+                <div class="bio-data">
+                    <h2 class="common-heading">My Bio-Data</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quia, similique! Beatae odio modi ducimus nobis dolore optio 
+                        corporis, repudiandae nam.</p>
+                    <br/>
+                    
+                    <div class="bio-data-stats">
+                        <div class="bio-stats">
+                            <h3>Web Design</h3>
+                            <div class="bio-progress-bar">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                        <div class="bio-stats">
+                            <h3>DSA</h3>
+                            <div class="bio-progress-bar bio-progress-2">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                        <div class="bio-stats">
+                            <h3>Java</h3>
+                            <div class="bio-progress-bar bio-progress-3">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        <div class="bio-stats">
+                            <h3>Python</h3>
+                            <div class="bio-progress-bar bio-progress-4">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                        <div class="bio-stats">
+                            <h3>Database ( mysql )</h3>
+                            <div class="bio-progress-bar bio-progress-5">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bio-data-btn">
+                        <a href="simple-resume.pdf" class="btn" download target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+     <!-- =======================
+        Our postfolio section start 
+    ====================== -->
+
+    <section class="section section-portfolio" id="Portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Lestest Works</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia, nobis vero sed aliquid porro voluptates maxime vitae</p>
+        </div>
+        <div class="p-btns ">
+            <div class="btn p-btn " data-btn-num="1">Website</div>    
+            <div class="btn p-btn " data-btn-num="2">Software</div>    
+            <div class="btn p-btn " data-btn-num="3">API user</div>    
+        </div>
+
+        <div class="container grid grid-three-column Portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/1.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/3.A2Z%20It%20hub/A2z.html" translate="param durgist" class="common-heading">Projet 1</a>
+                </div>
+            </div>  
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio/4.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/1.infosys%20company%20website/infosys.html" translate="param durgist" class="common-heading">Projet 2</a>
+                </div>
+            </div> 
+
+            
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/5.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/7.game_development/jsgamedevelopment.html" translate="param durgist" class="common-heading">Projet 3</a>
+                </div>
+            </div>  
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio/3.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/9.Word_Scramble_Game/wsg.html" translate="param durgist" class="common-heading">Projet 4</a>
+                </div>
+            </div>  
+
+            <div class="img-overlay p-btn--2">
+                <img src="images/folio/1.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/10.E-commerce_shopping_Card_page/card.html" translate="param durgist" class="common-heading">Projet 5</a>
+                </div>
+            </div>  
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/4.jpg" alt="my works"/>
+                <div class="overlay">
+                    <a href="file:///F:/practice/A2Z%20classes/SELF%20WEBSITE%20CREATE/6.typing_speed_projectjs/typing_test.html" translate="param durgist" class="common-heading">Projet 6</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- =============
+        our work counter section start
+    =============== -->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">0+</h2>
+                <p>Projects Completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="6000">0+</h2>
+                <p>Happy Client</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="5000">0+</h2>
+                <p>cups of coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="3000">0+</h2>
+                <p>real professional</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================
+        our sevices section start
+    ========================================= -->
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia, nobis vero sed aliquid porro voluptates maxime vitae</p>
+        </div>
+
+        <!-- services offers card -->
+        <div class="container grid grid-three-column">
+
+            <div class="services-box">
+                <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+
+            <div class="services-box">
+                <ion-icon name="logo-web-component" class="service-icon"></ion-icon>
+                <h3>Web development</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+
+            <div class="services-box">
+                <ion-icon name="logo-microsoft" class="service-icon"></ion-icon>
+                <h3>software development</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+            
+            <div class="services-box">
+                <ion-icon name="apps" class="service-icon"></ion-icon>
+                <h3>Mobile apps</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+
+            <div class="services-box">
+                <ion-icon name="laptop" class="service-icon"></ion-icon>
+                <h3>App Interface</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+            
+            <div class="services-box">
+                <ion-icon name="code" class="service-icon"></ion-icon>
+                <h3>full stack development</h3>
+                <p>
+                    "It is not because things are different that we do not dare; if is 
+                    because we do not dare that they are defficult."
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================== 
+          Our Resume Section Start  
+    ========================================  -->
+    <section class="section-resume section " >
+        <div class="container grid grid-two-column">
+          <!-- resume left side  -->
+          <div class="resume-img">
+            <img src="images/lazy1.jpg" alt="my resume pic" 
+              data-src="images/biodata.jpg"
+              loading="lazy"
+              class="lazy-img"
+            />
+          </div>
+  
+          <!-- resume right side  -->
+          <div class="resume-data">
+            <h2 class="common-heading">resume</h2>
+            <p class="resume-para">my work experience</p>
+  
+            <!-- <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Online educator on Youtuber</h3>
+                <div class="grid grid-two-col">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> ThapaTechnical, Inc.
+                  </p>
+                  <p>
+                    <ion-icon name="location-outline"></ion-icon> Pune, India
+                  </p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>  <span>April 2018 - Present </span
+                  > 
+                </p>
+              </div>
+            </div> -->
+  
+            <!-- 2nd work experience  -->
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Senior Front End Developer</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> Facebook, Inc.
+                  </p>
+                  <p>
+                    <ion-icon name="location-outline"></ion-icon> Ahmednagar
+                  </p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon> October 2023 -
+                  Present
+                </p>
+              </div>
+            </div>
+  
+            <!-- 3rd work experience  -->
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Senior Back End Developer</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> Facebook, Inc.
+                  </p>
+                  <p>
+                    <ion-icon name="location-outline"></ion-icon> Ahmednagar
+                  </p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>October 2023 -
+                  Present
+                </p>
+              </div>
+            </div>
+  
+            <!-- 4th work experience  -->
+            <div class="resume-data-subsection">
+              <div class="resume-data-left">
+                <h3>Senior Full Stack Developer</h3>
+                <div class="grid grid-two-column">
+                  <p>
+                    <ion-icon name="business-outline"></ion-icon> Facebook, Inc.
+                  </p>
+                  <p>
+                    <ion-icon name="location-outline"></ion-icon> Ahmednagar
+                  </p>
+                </div>
+              </div>
+  
+              <div class="resume-data-right">
+                <p class="resume-data-button">fulltime</p>
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>October 2023 -
+                  Present
+                </p>
+              </div>
+            </div>
+         
+            <!-- Education section  -->
+            <div class="resume-data-bottom-subsection"> 
+              <p class="resume-para">Education</p> 
+        
+               <!-- 2nd college  -->
+              <div class="resume-data-subsection ">
+                <div class="resume-data-left">
+                  <h3>Bachelor in Computer Science</h3>
+                  <div class="grid">
+                    <p>
+                      <ion-icon name="business-outline"></ion-icon> New Arts College, Ahmednagar.
+                    </p>
+                    <p>
+                      <ion-icon name="location-outline"></ion-icon> Ahmednagar, MH
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="resume-data-right">
+                  <p class="resume-data-button"> Bachelor </p>
+                  <p>
+                    <ion-icon name="calendar-outline"></ion-icon>  <span>October 2021 - 2024</span
+                    > 
+                  </p>
+                </div>
+              </div>
+              <!-- end  -->
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    <!-- ============================================
+        testimonial section start slider start
+    ================================================= -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Client Works</h2>
+        </div>
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper container">
+        <div class="swiper-wrapper">
+            <!-- section start -->
+          <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/a.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/b.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/c.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/d.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/e.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/f.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/g.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/h.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+          <div class="swiper-slide">.
+            <!-- section end -->
+            <div class="swiper-client-msg">
+                    <p>Param : You Know sometimes when I'm talking, my words can't keep
+                       up with my thoughts... I wonder why we think faster than we speek.
+                       Hobbes : Probably so we can think twice
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="images/clients/d.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p>param durgist</p>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+
+          </div>
+        <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- ============================================
+        Our Freelancing section start
+    ================================================= -->
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>Available</span> for Freelancing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates fugit magni </p>
+            <a href="/contect.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+
+    <!-- ============================================
+        Our contect section start
+    ================================================= -->
+        <section class="section section-contect">
+            <div class="container">
+                <h2 class="common-heading">Contect Us</h2>
+            </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120637.94989666366!2d74.66027147437887!3d19.110466279559887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1698140687099!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="section-contect-main contect-container">
+                <form action="https://formspree.io/f/xaygvdqy" method="POST">
+                    <div class="grid grid-two-column">
+                        <div class="">
+                            <label for="username"></label>
+                            <input 
+                                type="text" 
+                                name="username" 
+                                placeholder="username" 
+                                id="username" 
+                                required
+                                autocomplete="off" />
+                        </div>
+                        <div class="">
+                            <label for="email"></label>
+                            <input 
+                                type="email" 
+                                name="email" 
+                                placeholder="param@gmail.com" 
+                                id="email"
+                                required
+                                autocomplete="off" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            required
+                            placeholder="subject"
+                            autocomplete="off" />
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea 
+                            name="textarea" 
+                            id="textarea" 
+                            cols="30" 
+                            rows="10"
+                            autocomplete="off"
+                            required
+                            min
+                        ></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="submit" id="submit" class="btn" value="SEND MASSAGE">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- /* ============================================
+        Our Footer section start
+    ================================================= */ -->
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    We have tested a number of registry fix and clean utilities and 
+                    present our top 3 list on our site for your convenience. Hope your
+                    like it.
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">home</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">about</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">services</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Portfolio</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">contect</a></li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Web Design</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">web development</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Mern Project</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">Online Classess</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">More Courses</a></li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div>
+                        <p><span><ion-icon name="location-outline"></ion-icon></span>
+                            Ahmednagar , India
+                        </p>
+                    </div>
+                    <div>
+                        <p><span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+919657847967">+91 9657847967</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:durgistparmeshwar@gmail.com" class="emai-licons">durgistparmeshwar@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/" target="_black">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.discord.com" target="_black">
+                    <ion-icon class="icons" name="logo-discord"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/" target="_black">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+            <div class="f-credits">
+                <p>Copyright 2022 All rights reserved | This template is made with ❤
+                    by Param Durgist
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--scroll to top button -->
+    <!-- <div></div> -->
+</body>
+</html>
